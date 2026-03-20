@@ -1,0 +1,9 @@
+o que é HTML e para que serve ?
+    - são códigos que são intepretados pelos navegadores e exibido visualmente a página para o usuário.
+    - HTML código estrutural 
+    - CSS código de estilização
+    - HTML e CSS sempre estão juntos
+
+resumo:
+    ensinando ao utilizar o espencionar 
+        - select element
