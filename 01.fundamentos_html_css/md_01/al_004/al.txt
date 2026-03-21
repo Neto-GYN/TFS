@@ -1,0 +1,14 @@
+o que e tag ?
+
+    <h1></h1>           titulo
+    <h2></h2>           sub titulo
+    <h4></h4>           sub titulo
+    <p></p>             texto
+    <strong></strong>   negritp
+    <u></u>             sublinhado
+    <hr/>               linha orizontal
+
+resumo: 
+    - explicando sobre o comportamento das tag
+    - ele não aprofunda sobre o que a tags se comportam
+    - explica que existe tags que tem fecham nela mesma
