@@ -1,0 +1,2 @@
+quais softwares eu vou precisar ?
+    - vscode
