@@ -1,0 +1,9 @@
+Atributos
+
+    <a href=""></a>
+    <img src="" alt="">
+
+resumo : 
+    - explica sobre atributos que certas tags possuem
+    - tags que possui atributos as propriedades sempre serão inseridas na abertura
+    - dica para que diminua a imagem proporcionalmente e apenas necessario que utiliza o "width" sem a necessidade do "height"
