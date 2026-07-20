@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-04: A Base Geral do CSS</title>
+    <style>
+        *{
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #div1{
+            color: aqua;
+        }
+
+        .div2{
+            color: red;
+        }
+
+        /* seleciona mais de um item para aplicar as propriedades */
+        #div1,
+        .div2{
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        /* neste exemplo onde não apresenta a "," o efeitos serão aplicados apenas no ultimo elemento */
+        ol li {
+            color:red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <pre>
+
+        <!-- id: utilizado por um unico elemeto  -->
+        <div id="div1">
+            titulo 01
+        </div>
+
+        <!-- class:utilizado por um ou mais elemetos -->
+        <div class="div2">
+            titulo 02
+        </div>
+
+        <ol>
+            <li>MSG 1</li>
+            <li>MSG 2</li>
+        </ol>
+
+    </pre>
+</body>
+</html>
