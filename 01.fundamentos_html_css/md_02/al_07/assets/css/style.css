@@ -1,0 +1,25 @@
+:root{
+    --primary-color: #00FF00;
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.md01{
+    border: 1px solid var(--primary-color);
+}
+
+.md02{
+    
+}
+
+.md03{
+    
+}
+
+.md04{
+    
+}
