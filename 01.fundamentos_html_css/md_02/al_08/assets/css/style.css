@@ -1,0 +1,32 @@
+:root{
+    --primary-color: #00FF00;
+    --header-color: #000000;
+}
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.md01{
+    background-color: var(--header-color);
+    width: 100%;
+    height: 100px;
+}
+
+ /* inherit "herança" copia a informações do item anterior */
+
+.md02{
+    background-color: var(--primary-color);
+    width: inherit;
+    height: 100px;
+}
+
+/* .md03{
+    
+}
+
+.md04{
+    
+} */
