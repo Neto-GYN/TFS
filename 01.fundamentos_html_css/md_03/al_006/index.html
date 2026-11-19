@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[AL006] Tags Fieldset e Legend</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+    <header>
+        <nav></nav>
+    </header>
+   
+    <main>
+        <section>
+
+            <div class="card">
+                
+                <form action="" method="post" enctype="multipart/form-data">
+
+                    <fieldset>
+
+                        <legend>Dados Pessoais</legend>
+
+                        <label for="name">
+                            <div class="labelName">Nome</div>
+                            <input type="text" name="name" id="name" required minlength="3" maxlength="25">
+                        </label>
+
+                        <label for="age">
+                            <div class="labelName">Idade</div>
+                            <input type="number" name="age" id="age" required  min="18">
+                        </label>
+
+                        <label for="birthdate">
+                            <div class="labelName">Data Aniversario</div>
+                            <input type="date" name="birthdate" id="birthdate" max="2014-12-12">
+                        </label>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend>Dados Profissionais</legend>
+
+                        <label for="company">
+                            <div class="labelName">Empresa</div>
+                            <input type="text" name="company" id="company" required minlength="5">
+                        </label>
+
+                        <label for="jobTitle">
+                            <div class="labelName">Cargo</div>
+                            <input type="text" name="jobTitle" id="jobTitle">
+                        </label>
+
+                        <label for="photo">
+                            <div class="labelName">Foto</div>
+                            <input type="file" name="photo" id="photo" accept="image/*">
+                        </label>
+
+                    </fieldset>
+
+                    <button>Cadastrar</button>
+                    
+                </form>
+
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <nav></nav>
+    </footer>
+</body>
+</html>
